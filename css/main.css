@@ -1,45 +1,81 @@
-header {
-    background-color: #e8e5e5;
-    overflow: hidden;
+html, body {
+  padding:0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-color: #fbfaf9c9;
+  font-size: 18px;
+  font-family: 'Quicksand';
 }
 
-body {
-    padding:0;
-    margin:0;
+img#input {
+  padding-top: 1em;
+  max-width: 35vw;
+  display: block;
+}
+
+#output a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  background: #ee6e735c;
+  border: none;
+  outline: none;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+}
+
+#box {
+    border: 2px solid black;
+    width: max-content;
+    padding: 1em;
+    margin-left: 1rem;
+    border-radius: 0.3em;
+}
+
+#output {
+    padding: 1rem;
+    margin: 0.2rem;
+    line-height: 1.6rem;
+    font-size: 1.1rem;
+}
+
+#submit {
+    width: 250px;
+    font-weight: bold;
+    font-size: larger;
 }
 
 h1 {
-    color: rgba(48, 99, 46, 0.7); 
-    font-family: helvetica;
-    font-size: 4em;
-    text-align: center;
+    font-size: 2em;
     line-height: 90%;
     text-shadow: 0 0.037em rgba(99, 196, 96, 0.65);
+    margin-left: 1rem;
 }
 
 h2 {
     background-color: #f2f2f2;
     overflow: hidden;
     color: black;
-    font-family: arial;
     font-size: 0.95em;
-    text-align: center;
     padding:0;
     margin:0;
 } 
 
 h3 {
     color: black;
-    font-family: arial;
     font-size: 0.75em;
-    text-align: center;
 }
 
 h5 {
     color: black;
-    font-family: arial;
     font-size: 0.8em;
-    text-align: center;
 }
 
 textarea {
@@ -67,7 +103,6 @@ textarea {
 .dropdown {
     position: relative;
     display: inline-block;
-    text-align: center;
 }
 
 .dropdown-content {
