@@ -235,7 +235,7 @@ function runOCR( url ) {
 			// common nouns ("NN")
 			jQuery.ajax ({
 
-				url: 'https://conze.pt/app/spacy/dep',
+				url: 'https://example.com/app/spacy/dep',
 				type: "POST",
 				data: JSON.stringify({ "text": result.text, 'model': app.language, 'collapse_phrases': 1, 'collapse_punctuation': 0 }),
 				dataType: "json",
